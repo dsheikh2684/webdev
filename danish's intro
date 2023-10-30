@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,14 +7,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylei.css">
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        /* About Section Styles */
+        #about {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        #about p {
+            font-size: 16px;
+        }
+
+        /* Accomplishments Section Styles */
+        #accomplishments {
+            padding: 40px 0;
+            background-color: #fff;
+        }
+
+        #accomplishments h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .accomplishment-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <nav class="nav">
             <ul>
-                <li id="name">SHAKYA KUMAR</li>
-                <li><a href="#Home">Home</a></li>
+                <li id="name">DANISH KHAN</li>
+                <li><a href="#Home">Home</a>
                 <li><a href="#About Me">About Me</a></li>
                 <li><a href="#Skills">Skills</a></li>
                 <li><a href="#Project">Project</a></li>
@@ -24,7 +104,7 @@
     <div id="Home"></div>
     <ul class="Home" style="display: flex;" type="none">
         <li>
-            <h1>Hi, I'm shakya <span>kumar</span></h1>
+            <h1>Hi, I'm Danish <span>khan</span></h1>
             </br>
             <p>This is my official portfolio as a
                 </br><span id="headline">FRONTENED DEVELOPER.</span></br></br>
@@ -41,7 +121,7 @@
     <div class="divabout">
         <div class="about">
             <h1>About Me</h1>
-            <p>My name is <span>shakya kumar</span>. I'm currently pursuing my Bachelor of Technology from Lakshmi
+            <p>My name is <span>danish khan</span>. I'm currently pursuing my Bachelor of Technology from Lakshmi
                 Narain
                 College of </br>Technology
                 in <span>Computer Science & Engineering</span> with specialization of <span>Artificial Intelligence &
@@ -60,24 +140,24 @@
                         M.P.</a></br>
                     <span id="course">Computer Science & Engineering-Artificial Engineering & Machine
                         Learning</span></br>
-                    <span id="cgpa">Agreggate CGPA: 8.19</span>
+                    <span id="cgpa">Agreggate CGPA: 7.8</span>
                     </br>
                     </br>
 
                 </li>
                 <li><span id="school">Higher Secondary Education(2022)</span></br>
-                    <a href="https://no2rewa.kvs.ac.in/" target="_blank"> morning star higher secoundry school ratlam (457001)</a></br>
+                    <a href="https://no2rewa.kvs.ac.in/" target="_blank"> Govement excellence higher Secondary school dahi(454331)</a></br>
                     <span id="subjects">Physics, Chemistry, Maths, Information Practices,english</span></br>
-                    <span id="percentage">Percentage: 83.2%</span>
+                    <span id="percentage">Percentage: 93.0%</span>
                     </br>
                     </br>
 
                 </li>
                 <li>
                     <span id="school">Secondary Education(2020)</span></br>
-                    <a href="https://depaulrewa.com/" target="_blank"> morning star higher secoundry school ratlam (457001)</a></br>
+                    <a href="https://depaulrewa.com/" target="_blank">  Govement excellence higher Secondary school dahi(454331)</a></br>
                     <span id="subjects">Science, Maths, Information Technology</span></br>
-                    <span id="percentage">Percentage: 86.0%</span>
+                    <span id="percentage">Percentage: 91.3%</span>
                     </br>
                     </br>
 
@@ -128,11 +208,11 @@
         </div>
     </div>
 
-    <div id="Project"></div>
+   <div id="Project"></div>
     <div class="project">
         <h1>Projects</h1></BR>
         <p>
-            My Portfolio Website: <a href="index.html" target="_blank">Shakya's Portfolio</a>
+            My Portfolio Website: <a href="index.html" target="_blank">Danish's Portfolio</a>
         </p>
         </br>
         <div id="more">
@@ -148,9 +228,9 @@
         <ul>
             <li>
                 Contact Me via Linkedin: <a href="https://www.linkedin.com/in/shakya-kumar-6b7825247/"
-                    target="_blank">https://www.linkedin.com/in/shakya-kumar-6b7825247/</a>
+                    target="_blank">https://www.linkedin.com/in/danish-khan-462506291</a></a>
             </li>
-            <li>Contact Me via email: <span>kumarshakya57@gmail.com</span></li>
+            <li>Contact Me via email: <span>dk7262107@gmail.com</span></li>
         </ul>
         <form action="/url" method="GET"></form>
         <p>Enter your name: </p>
@@ -164,7 +244,7 @@
 
         <div>
         <div class="copyright">
-            <p>Copyright &copy;2023 shakya kumar</p>
+            <p>Copyright &copy;2023 Danish khan</p>
         </div>
     </div>
 </body>
